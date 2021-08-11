@@ -4,14 +4,12 @@ import numpy as np
 import pickle
 from io import StringIO
 import matplotlib.pyplot as plt
-from diversity_viz import *
 import base64
 from labellines import labelLine, labelLines
 
 app = Flask(__name__)
 app.config["SECRET_KEY"] = '80e2229aa326ca04ee982aa63b9b0f13'
 
-DV = DiversityViz()
 
 @app.route("/")
 def home():
