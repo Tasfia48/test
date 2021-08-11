@@ -1,0 +1,135 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="container-fluid">
+	<div id="home_div" class="row">
+		<div class="col-lg-3" style="border-right: 0.1px solid #e8e2e2;margin-top: 10px;">
+			<h5>Variance of violent crimes within each district</h5>
+			<div class="control">
+				<img src="" id="imageVar" align="middle" width="" height="" />
+					<!-- <button id="update_button" style="display: none;" class="ui small black basic button">Update Plots</button> -->
+			</div>
+			<h5>Total number of violent crimes within each district</h5>
+			<div class="control">
+				<img src="" id="imageTotal" align="middle" width="" height="" />
+					<!-- <button id="update_button" style="display: none;" class="ui small black basic button">Update Plots</button> -->
+			</div>
+		</div>
+		<div class="col-lg-4" style="border-right: 0.1px solid #e8e2e2;margin-top: 10px;">
+			<div>
+                <!-- <label id="file_input_label" for="file_input">Upload Data</label>
+                <input id="file_input" type="file"> -->
+            </div>
+            <div class="control">
+            	<h5>Please Select a District</h5>
+							<span class="label">District:</span>
+							<span>
+								<select id="district" class='dList' style="margin-right: 30px">
+			          </select>
+							</span>
+            	<span>
+								<button id="showButton"
+									class="float-right ui mini black basic button">Show All</button>
+            	</span>
+            </div>
+            <div class="control">
+							<img src="" id="imageDist" align="middle" width="" height="" />
+                <!-- <button id="update_button" style="display: none;" class="ui small black basic button">Update Plots</button> -->
+            </div>
+						<div id="demoInfo" style="display: none;" class="control">
+							<h5>Demographic Information</h5>
+							<text> Total Population: <text id="text_TOT_POP"></text></text><br>
+							<text> White: <text id="text_WHITE"></text> %</text><br>
+							<Text> Black: <text id="text_BLACK"></text> %<Text><br>
+							<Text> Hispanic: <text id="text_HISP"></text> %<Text><br>
+							<Text> Asian: <text id="text_ASIAN"></text> %<Text><br>
+							<Text> Other: <text id="text_OTHER"></text> %<Text>
+
+                <!-- <button id="update_button" style="display: none;" class="ui small black basic button">Update Plots</button> -->
+            </div>
+		</div>
+		<div class="col-lg-5">
+			<div id="header">
+				<div class="control" id="loading_text">
+					<span>Loading....</span>
+				</div>
+				<div class="control" id="">
+					<h5>Please select the pair of police beats within the district</h5>
+					<span class="label">Beat 1:</span>
+					<span><select id="b1" class='bList' style="background-color:#81BEF7;margin-right: 30px">
+	                </select></span>
+					<span class="label">Beat 2:</span>
+					<span><select id="b2" class='bList' style="background-color:#F5D0A9;margin-right: 30px">
+	                </select></span>
+					<button id="update_button" class="ui mini black basic button">Update Plots</button>
+
+
+					<!-- <span class="label">Maximum Groups</span>
+	                <input id="total_groups" type="range" name="alpha" min="2" max="30" step="1" value="30">
+	                <span id="total_groups_text" style="margin-right: 30px">30</span>
+
+	                <span><label for="inverse"> Inverse</label>
+	                	<input type="checkbox" id="inverse" name="inverse" value="inverse"></span> -->
+				</div>
+				<div class="control">
+					<img src="" id="image" align="middle" />
+				</div>
+
+
+			<div id="demoBeatInfo" style="display: none;" class="control">
+				<br>
+				<h5>Demographic Information of Beat <text id="beat1" style="background-color:#81BEF7;"></text></h5>
+				<text> Total Population: <text id="text_TOT_POP_one"></text></text><br>
+				<text> White: <text id="text_WHITE_one"></text> %</text><br>
+				<Text> Black: <text id="text_BLACK_one"></text> %<Text><br>
+				<Text> Black: <text id="text_BLACK_one"></text> %<Text><br>
+				<Text> Hispanic: <text id="text_HISP_one"></text> %<Text><br>
+				<Text> Asian: <text id="text_ASIAN_one"></text> %<Text><br>
+				<Text> Other: <text id="text_OTHER_one"></text> %<Text><br><br>
+
+				<h5>Demographic Information of Beat <text id="beat2" style="background-color:#F5D0A9;"></text></h5>
+				<text> Total Population: <text id="text_TOT_POP_two"></text></text><br>
+				<text> White: <text id="text_WHITE_two"></text> %</text><br>
+				<Text> Black: <text id="text_BLACK_two"></text> %<Text><br>
+				<Text> Asian: <text id="text_ASIAN_two"></text> %<Text><br>
+				<Text> Hispanic: <text id="text_HISP_two"></text> %<Text><br>
+				<Text> Other: <text id="text_OTHER_two"></text> %<Text>
+					<!-- <button id="update_button" style="display: none;" class="ui small black basic button">Update Plots</button> -->
+			</div>
+			</div>
+			<!-- <hr> -->
+			<div class="main_div row" id="heatmap" style="display: inline-block;">
+			
+			</div>
+
+			<div id="legend" style="display: inline-block;"></div>
+
+		</div>
+	</div>
+	<div id="main_div" class="row">
+	</div>
+</div>
+
+<!-- Main JavaScript -->
+<script type = "text/javascript" src="{{ url_for('static', filename='vendor/jquery/jquery-3.3.1.min.js') }}"></script>
+<script type = "text/javascript" src="{{ url_for('static', filename='vendor/bootstrap/bootstrap.min.js') }}"></script>
+<script src="{{ url_for('static', filename='vendor/semantic2.4/semantic.min.js') }}"></script>
+<!-- <script src="{{ url_for('static', filename='vendor/d3/d3.min.js') }}"></script> -->
+<script src="https://d3js.org/d3.v6.min.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
+<script src="https://unpkg.com/d3-array@1"></script>
+<script src="https://unpkg.com/d3-collection@1"></script>
+<script src="https://unpkg.com/d3-path@1"></script>
+<script src="https://unpkg.com/d3-shape@1"></script>
+<script src="https://unpkg.com/d3-sankey@0"></script>
+
+<script src="https://unpkg.com/@observablehq/stdlib@3"></script>
+<script>
+	const {DOM} = new observablehq.Library;
+</script>
+
+<script src="{{ url_for('static', filename='js/index.js') }}"></script>
+<script src="{{ url_for('static', filename='js/diversity_viz.js') }}"></script>
+
+{% endblock content %}

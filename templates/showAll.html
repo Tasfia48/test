@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+{% block content %}
+
+<div class="container-fluid">
+	<div class="row">
+		<span>
+			<button id="homeButton"
+				class="float-right ui mini black basic button" >
+					<a href="{{ url_for('index') }}" >Home</a></button>
+		</span>
+	</div>
+	<div id="main_div" class="row">
+
+	</div>
+</div>
+
+
+<!-- Main JavaScript -->
+<script type = "text/javascript" src="{{ url_for('static', filename='vendor/jquery/jquery-3.3.1.min.js') }}"></script>
+<script type = "text/javascript" src="{{ url_for('static', filename='vendor/bootstrap/bootstrap.min.js') }}"></script>
+<script src="{{ url_for('static', filename='vendor/semantic2.4/semantic.min.js') }}"></script>
+<!-- <script src="{{ url_for('static', filename='vendor/d3/d3.min.js') }}"></script> -->
+<script src="https://d3js.org/d3.v6.min.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+
+<script src="https://unpkg.com/d3-array@1"></script>
+<script src="https://unpkg.com/d3-collection@1"></script>
+<script src="https://unpkg.com/d3-path@1"></script>
+<script src="https://unpkg.com/d3-shape@1"></script>
+<script src="https://unpkg.com/d3-sankey@0"></script>
+
+<script src="https://unpkg.com/@observablehq/stdlib@3"></script>
+<script>
+	const {DOM} = new observablehq.Library;
+</script>
+
+<script src="{{ url_for('static', filename='js/index.js') }}"></script>
+<!-- <script src="{{ url_for('static', filename='js/showAll.js') }}"></script> -->
+
+{% endblock content %}

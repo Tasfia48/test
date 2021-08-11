@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='vendor/bootstrap/bootstrap.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='vendor/semantic2.4/semantic.min.css')}}">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/custom.css') }}">
+
+    <title>Causality Based Policing</title>
+</head>
+<body>
+
+	<!-- Nav bar start -->
+	<nav class="navbar navbar-expand-lg navbar-dark site-color">
+		<a class="navbar-brand" href="{{url_for('home')}}" >Causality Based Policing</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+	  	</button>
+
+        <div class="col-lg-3"></div>
+        <div class="col-lg-9">
+
+
+
+        </div>
+
+	</nav>
+	<!-- Nav bar end -->
+
+	<!-- main container start -->
+    {% with messages = get_flashed_messages(with_categories=true) %}
+        {% if messages %}
+          {% for category, message in messages %}
+            <div class="alert alert-{{ category }}">
+              {{ message }}
+            </div>
+          {% endfor %}
+        {% endif %}
+    {% endwith %}
+
+    {% block content %}{% endblock %}
+</body>
+</html>

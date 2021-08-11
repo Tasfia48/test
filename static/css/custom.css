@@ -1,0 +1,66 @@
+/*used for defining the custom color of the website*/
+.site-color {
+  background-color: #0278ae !important;
+  border-color: #0278ae !important;
+}
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+/* body, .container-fluid, .row, .col-lg-4, .col-lg-8{
+  height: 100vh;
+} */
+#header{
+  height: 5vh;
+  position: relative;
+  /*text-align: right;*/
+  /*float: right;*/
+  /*position: absolute;*/
+}
+.control{
+  display: inline-block;
+  margin-top: 10px;
+}
+#loading_text{
+  position: absolute;
+  visibility:  hidden;
+  left: 50%;
+  font-size: 18pt;
+}
+#group_slider{
+  position: absolute;
+  left: 75%;
+}
+#heatmap{
+  height: 95vh;
+}
+#setView{
+  height: 100vh;
+}
+
+#file_input_label {
+   cursor: pointer;
+   color: black;
+   border-radius: 5px;
+   border: 1px solid black;
+   padding: 6px;
+   /* Style as you please, it will become the visible UI component. */
+}
+
+#file_input {
+	width: 0.1px;
+	height: 0.1px;
+   opacity: 0;
+   overflow: hidden;
+   position: relative;
+   z-index: -1;
+}
+
+label, .label{
+  /*opacity: 0.7*/
+}
+
+input[type="range"]{
+  margin: .4em;
+}

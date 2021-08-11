@@ -1,0 +1,371 @@
+Gender,Age,Profession,count,reverse_count
+Female,18-21,Business Analyst,10,0.1
+Female,18-21,Data Analyst,22,0.045454545454545456
+Female,18-21,Data Engineer,3,0.3333333333333333
+Female,18-21,Data Scientist,28,0.03571428571428571
+Female,18-21,Not employed,6,0.16666666666666666
+Female,18-21,Other,5,0.2
+Female,18-21,Product/Project Manager,1,1.0
+Female,18-21,Research Scientist,4,0.25
+Female,18-21,Software Engineer,23,0.043478260869565216
+Female,18-21,Statistician,3,0.3333333333333333
+Female,18-21,Student,295,0.003389830508474576
+Female,22-24,Business Analyst,22,0.045454545454545456
+Female,22-24,DBA/Database Engineer,2,0.5
+Female,22-24,Data Analyst,62,0.016129032258064516
+Female,22-24,Data Engineer,16,0.0625
+Female,22-24,Data Scientist,98,0.01020408163265306
+Female,22-24,Not employed,46,0.021739130434782608
+Female,22-24,Other,35,0.02857142857142857
+Female,22-24,Product/Project Manager,5,0.2
+Female,22-24,Research Scientist,24,0.041666666666666664
+Female,22-24,Software Engineer,77,0.012987012987012988
+Female,22-24,Statistician,12,0.08333333333333333
+Female,22-24,Student,259,0.003861003861003861
+Female,25-29,Business Analyst,46,0.021739130434782608
+Female,25-29,DBA/Database Engineer,6,0.16666666666666666
+Female,25-29,Data Analyst,115,0.008695652173913044
+Female,25-29,Data Engineer,22,0.045454545454545456
+Female,25-29,Data Scientist,191,0.005235602094240838
+Female,25-29,Not employed,55,0.01818181818181818
+Female,25-29,Other,55,0.01818181818181818
+Female,25-29,Product/Project Manager,11,0.09090909090909091
+Female,25-29,Research Scientist,43,0.023255813953488372
+Female,25-29,Software Engineer,91,0.01098901098901099
+Female,25-29,Statistician,22,0.045454545454545456
+Female,25-29,Student,117,0.008547008547008548
+Female,30-34,Business Analyst,13,0.07692307692307693
+Female,30-34,DBA/Database Engineer,1,1.0
+Female,30-34,Data Analyst,63,0.015873015873015872
+Female,30-34,Data Engineer,14,0.07142857142857142
+Female,30-34,Data Scientist,139,0.007194244604316547
+Female,30-34,Not employed,33,0.030303030303030304
+Female,30-34,Other,53,0.018867924528301886
+Female,30-34,Product/Project Manager,21,0.047619047619047616
+Female,30-34,Research Scientist,64,0.015625
+Female,30-34,Software Engineer,47,0.02127659574468085
+Female,30-34,Statistician,9,0.1111111111111111
+Female,30-34,Student,46,0.021739130434782608
+Female,35-39,Business Analyst,18,0.05555555555555555
+Female,35-39,DBA/Database Engineer,2,0.5
+Female,35-39,Data Analyst,32,0.03125
+Female,35-39,Data Engineer,9,0.1111111111111111
+Female,35-39,Data Scientist,64,0.015625
+Female,35-39,Not employed,30,0.03333333333333333
+Female,35-39,Other,27,0.037037037037037035
+Female,35-39,Product/Project Manager,14,0.07142857142857142
+Female,35-39,Research Scientist,36,0.027777777777777776
+Female,35-39,Software Engineer,35,0.02857142857142857
+Female,35-39,Statistician,3,0.3333333333333333
+Female,35-39,Student,28,0.03571428571428571
+Female,40-44,Business Analyst,7,0.14285714285714285
+Female,40-44,DBA/Database Engineer,2,0.5
+Female,40-44,Data Analyst,19,0.05263157894736842
+Female,40-44,Data Engineer,8,0.125
+Female,40-44,Data Scientist,43,0.023255813953488372
+Female,40-44,Not employed,21,0.047619047619047616
+Female,40-44,Other,32,0.03125
+Female,40-44,Product/Project Manager,9,0.1111111111111111
+Female,40-44,Research Scientist,29,0.034482758620689655
+Female,40-44,Software Engineer,21,0.047619047619047616
+Female,40-44,Statistician,5,0.2
+Female,40-44,Student,10,0.1
+Female,45-49,Business Analyst,7,0.14285714285714285
+Female,45-49,DBA/Database Engineer,2,0.5
+Female,45-49,Data Analyst,13,0.07692307692307693
+Female,45-49,Data Engineer,2,0.5
+Female,45-49,Data Scientist,19,0.05263157894736842
+Female,45-49,Not employed,6,0.16666666666666666
+Female,45-49,Other,20,0.05
+Female,45-49,Product/Project Manager,9,0.1111111111111111
+Female,45-49,Research Scientist,19,0.05263157894736842
+Female,45-49,Software Engineer,13,0.07692307692307693
+Female,45-49,Statistician,4,0.25
+Female,45-49,Student,3,0.3333333333333333
+Female,50-54,Business Analyst,3,0.3333333333333333
+Female,50-54,DBA/Database Engineer,1,1.0
+Female,50-54,Data Analyst,11,0.09090909090909091
+Female,50-54,Data Scientist,12,0.08333333333333333
+Female,50-54,Not employed,7,0.14285714285714285
+Female,50-54,Other,14,0.07142857142857142
+Female,50-54,Product/Project Manager,8,0.125
+Female,50-54,Research Scientist,13,0.07692307692307693
+Female,50-54,Software Engineer,3,0.3333333333333333
+Female,50-54,Statistician,4,0.25
+Female,50-54,Student,3,0.3333333333333333
+Female,55-59,Business Analyst,4,0.25
+Female,55-59,DBA/Database Engineer,1,1.0
+Female,55-59,Data Analyst,5,0.2
+Female,55-59,Data Engineer,2,0.5
+Female,55-59,Data Scientist,7,0.14285714285714285
+Female,55-59,Not employed,8,0.125
+Female,55-59,Other,12,0.08333333333333333
+Female,55-59,Product/Project Manager,4,0.25
+Female,55-59,Research Scientist,1,1.0
+Female,55-59,Software Engineer,2,0.5
+Female,55-59,Student,3,0.3333333333333333
+Female,60-69,Business Analyst,1,1.0
+Female,60-69,Data Analyst,4,0.25
+Female,60-69,Data Scientist,5,0.2
+Female,60-69,Not employed,2,0.5
+Female,60-69,Other,5,0.2
+Female,60-69,Product/Project Manager,1,1.0
+Female,60-69,Research Scientist,6,0.16666666666666666
+Female,60-69,Software Engineer,1,1.0
+Female,60-69,Statistician,1,1.0
+Female,70+,Business Analyst,1,1.0
+Female,70+,Data Analyst,1,1.0
+Female,70+,Research Scientist,2,0.5
+Male,18-21,Business Analyst,25,0.04
+Male,18-21,DBA/Database Engineer,4,0.25
+Male,18-21,Data Analyst,66,0.015151515151515152
+Male,18-21,Data Engineer,23,0.043478260869565216
+Male,18-21,Data Scientist,188,0.005319148936170213
+Male,18-21,Not employed,37,0.02702702702702703
+Male,18-21,Other,39,0.02564102564102564
+Male,18-21,Product/Project Manager,3,0.3333333333333333
+Male,18-21,Research Scientist,27,0.037037037037037035
+Male,18-21,Software Engineer,106,0.009433962264150943
+Male,18-21,Statistician,11,0.09090909090909091
+Male,18-21,Student,1433,0.0006978367062107466
+Male,22-24,Business Analyst,90,0.011111111111111112
+Male,22-24,DBA/Database Engineer,8,0.125
+Male,22-24,Data Analyst,212,0.0047169811320754715
+Male,22-24,Data Engineer,77,0.012987012987012988
+Male,22-24,Data Scientist,514,0.0019455252918287938
+Male,22-24,Not employed,183,0.00546448087431694
+Male,22-24,Other,123,0.008130081300813009
+Male,22-24,Product/Project Manager,13,0.07692307692307693
+Male,22-24,Research Scientist,97,0.010309278350515464
+Male,22-24,Software Engineer,421,0.0023752969121140144
+Male,22-24,Statistician,35,0.02857142857142857
+Male,22-24,Student,993,0.0010070493454179255
+Male,25-29,Business Analyst,147,0.006802721088435374
+Male,25-29,DBA/Database Engineer,23,0.043478260869565216
+Male,25-29,Data Analyst,361,0.002770083102493075
+Male,25-29,Data Engineer,131,0.007633587786259542
+Male,25-29,Data Scientist,932,0.001072961373390558
+Male,25-29,Not employed,177,0.005649717514124294
+Male,25-29,Other,274,0.0036496350364963502
+Male,25-29,Product/Project Manager,66,0.015151515151515152
+Male,25-29,Research Scientist,242,0.004132231404958678
+Male,25-29,Software Engineer,584,0.0017123287671232876
+Male,25-29,Statistician,48,0.020833333333333332
+Male,25-29,Student,492,0.0020325203252032522
+Male,30-34,Business Analyst,126,0.007936507936507936
+Male,30-34,DBA/Database Engineer,25,0.04
+Male,30-34,Data Analyst,239,0.0041841004184100415
+Male,30-34,Data Engineer,100,0.01
+Male,30-34,Data Scientist,723,0.0013831258644536654
+Male,30-34,Not employed,102,0.00980392156862745
+Male,30-34,Other,243,0.00411522633744856
+Male,30-34,Product/Project Manager,113,0.008849557522123894
+Male,30-34,Research Scientist,226,0.004424778761061947
+Male,30-34,Software Engineer,404,0.0024752475247524753
+Male,30-34,Statistician,35,0.02857142857142857
+Male,30-34,Student,145,0.006896551724137931
+Male,35-39,Business Analyst,81,0.012345679012345678
+Male,35-39,DBA/Database Engineer,20,0.05
+Male,35-39,Data Analyst,147,0.006802721088435374
+Male,35-39,Data Engineer,69,0.014492753623188406
+Male,35-39,Data Scientist,459,0.002178649237472767
+Male,35-39,Not employed,53,0.018867924528301886
+Male,35-39,Other,176,0.005681818181818182
+Male,35-39,Product/Project Manager,131,0.007633587786259542
+Male,35-39,Research Scientist,184,0.005434782608695652
+Male,35-39,Software Engineer,288,0.003472222222222222
+Male,35-39,Statistician,36,0.027777777777777776
+Male,35-39,Student,50,0.02
+Male,40-44,Business Analyst,53,0.018867924528301886
+Male,40-44,DBA/Database Engineer,16,0.0625
+Male,40-44,Data Analyst,83,0.012048192771084338
+Male,40-44,Data Engineer,62,0.016129032258064516
+Male,40-44,Data Scientist,243,0.00411522633744856
+Male,40-44,Not employed,39,0.02564102564102564
+Male,40-44,Other,162,0.006172839506172839
+Male,40-44,Product/Project Manager,107,0.009345794392523364
+Male,40-44,Research Scientist,148,0.006756756756756757
+Male,40-44,Software Engineer,195,0.005128205128205128
+Male,40-44,Statistician,24,0.041666666666666664
+Male,40-44,Student,37,0.02702702702702703
+Male,45-49,Business Analyst,37,0.02702702702702703
+Male,45-49,DBA/Database Engineer,12,0.08333333333333333
+Male,45-49,Data Analyst,54,0.018518518518518517
+Male,45-49,Data Engineer,32,0.03125
+Male,45-49,Data Scientist,137,0.0072992700729927005
+Male,45-49,Not employed,27,0.037037037037037035
+Male,45-49,Other,138,0.007246376811594203
+Male,45-49,Product/Project Manager,80,0.0125
+Male,45-49,Research Scientist,96,0.010416666666666666
+Male,45-49,Software Engineer,147,0.006802721088435374
+Male,45-49,Statistician,18,0.05555555555555555
+Male,45-49,Student,16,0.0625
+Male,50-54,Business Analyst,27,0.037037037037037035
+Male,50-54,DBA/Database Engineer,11,0.09090909090909091
+Male,50-54,Data Analyst,32,0.03125
+Male,50-54,Data Engineer,23,0.043478260869565216
+Male,50-54,Data Scientist,118,0.00847457627118644
+Male,50-54,Not employed,21,0.047619047619047616
+Male,50-54,Other,87,0.011494252873563218
+Male,50-54,Product/Project Manager,68,0.014705882352941176
+Male,50-54,Research Scientist,76,0.013157894736842105
+Male,50-54,Software Engineer,95,0.010526315789473684
+Male,50-54,Statistician,15,0.06666666666666667
+Male,50-54,Student,9,0.1111111111111111
+Male,55-59,Business Analyst,24,0.041666666666666664
+Male,55-59,DBA/Database Engineer,8,0.125
+Male,55-59,Data Analyst,20,0.05
+Male,55-59,Data Engineer,7,0.14285714285714285
+Male,55-59,Data Scientist,61,0.01639344262295082
+Male,55-59,Not employed,28,0.03571428571428571
+Male,55-59,Other,63,0.015873015873015872
+Male,55-59,Product/Project Manager,31,0.03225806451612903
+Male,55-59,Research Scientist,45,0.022222222222222223
+Male,55-59,Software Engineer,51,0.0196078431372549
+Male,55-59,Statistician,11,0.09090909090909091
+Male,55-59,Student,4,0.25
+Male,60-69,Business Analyst,20,0.05
+Male,60-69,DBA/Database Engineer,7,0.14285714285714285
+Male,60-69,Data Analyst,12,0.08333333333333333
+Male,60-69,Data Engineer,9,0.1111111111111111
+Male,60-69,Data Scientist,45,0.022222222222222223
+Male,60-69,Not employed,23,0.043478260869565216
+Male,60-69,Other,66,0.015151515151515152
+Male,60-69,Product/Project Manager,13,0.07692307692307693
+Male,60-69,Research Scientist,43,0.023255813953488372
+Male,60-69,Software Engineer,41,0.024390243902439025
+Male,60-69,Statistician,16,0.0625
+Male,60-69,Student,6,0.16666666666666666
+Male,70+,Business Analyst,4,0.25
+Male,70+,DBA/Database Engineer,2,0.5
+Male,70+,Data Analyst,5,0.2
+Male,70+,Data Engineer,1,1.0
+Male,70+,Data Scientist,11,0.09090909090909091
+Male,70+,Not employed,9,0.1111111111111111
+Male,70+,Other,16,0.0625
+Male,70+,Product/Project Manager,2,0.5
+Male,70+,Research Scientist,14,0.07142857142857142
+Male,70+,Software Engineer,6,0.16666666666666666
+Male,70+,Statistician,7,0.14285714285714285
+Male,70+,Student,1,1.0
+Prefer not to say,18-21,Data Scientist,2,0.5
+Prefer not to say,18-21,Not employed,3,0.3333333333333333
+Prefer not to say,18-21,Other,1,1.0
+Prefer not to say,18-21,Research Scientist,1,1.0
+Prefer not to say,18-21,Software Engineer,2,0.5
+Prefer not to say,18-21,Student,20,0.05
+Prefer not to say,22-24,Data Analyst,4,0.25
+Prefer not to say,22-24,Data Engineer,3,0.3333333333333333
+Prefer not to say,22-24,Data Scientist,3,0.3333333333333333
+Prefer not to say,22-24,Not employed,2,0.5
+Prefer not to say,22-24,Other,2,0.5
+Prefer not to say,22-24,Product/Project Manager,1,1.0
+Prefer not to say,22-24,Research Scientist,3,0.3333333333333333
+Prefer not to say,22-24,Software Engineer,5,0.2
+Prefer not to say,22-24,Statistician,1,1.0
+Prefer not to say,22-24,Student,19,0.05263157894736842
+Prefer not to say,25-29,Business Analyst,2,0.5
+Prefer not to say,25-29,DBA/Database Engineer,1,1.0
+Prefer not to say,25-29,Data Analyst,7,0.14285714285714285
+Prefer not to say,25-29,Data Engineer,6,0.16666666666666666
+Prefer not to say,25-29,Data Scientist,10,0.1
+Prefer not to say,25-29,Not employed,4,0.25
+Prefer not to say,25-29,Other,4,0.25
+Prefer not to say,25-29,Product/Project Manager,1,1.0
+Prefer not to say,25-29,Research Scientist,9,0.1111111111111111
+Prefer not to say,25-29,Software Engineer,16,0.0625
+Prefer not to say,25-29,Student,12,0.08333333333333333
+Prefer not to say,30-34,Business Analyst,3,0.3333333333333333
+Prefer not to say,30-34,Data Analyst,2,0.5
+Prefer not to say,30-34,Data Scientist,7,0.14285714285714285
+Prefer not to say,30-34,Not employed,2,0.5
+Prefer not to say,30-34,Other,5,0.2
+Prefer not to say,30-34,Product/Project Manager,3,0.3333333333333333
+Prefer not to say,30-34,Research Scientist,6,0.16666666666666666
+Prefer not to say,30-34,Software Engineer,6,0.16666666666666666
+Prefer not to say,30-34,Statistician,1,1.0
+Prefer not to say,30-34,Student,2,0.5
+Prefer not to say,35-39,Business Analyst,3,0.3333333333333333
+Prefer not to say,35-39,DBA/Database Engineer,1,1.0
+Prefer not to say,35-39,Data Analyst,4,0.25
+Prefer not to say,35-39,Data Scientist,6,0.16666666666666666
+Prefer not to say,35-39,Not employed,1,1.0
+Prefer not to say,35-39,Other,5,0.2
+Prefer not to say,35-39,Product/Project Manager,2,0.5
+Prefer not to say,35-39,Research Scientist,1,1.0
+Prefer not to say,35-39,Software Engineer,8,0.125
+Prefer not to say,35-39,Student,2,0.5
+Prefer not to say,40-44,Data Analyst,1,1.0
+Prefer not to say,40-44,Data Engineer,1,1.0
+Prefer not to say,40-44,Data Scientist,6,0.16666666666666666
+Prefer not to say,40-44,Not employed,3,0.3333333333333333
+Prefer not to say,40-44,Other,3,0.3333333333333333
+Prefer not to say,40-44,Product/Project Manager,1,1.0
+Prefer not to say,40-44,Research Scientist,2,0.5
+Prefer not to say,40-44,Software Engineer,4,0.25
+Prefer not to say,40-44,Student,1,1.0
+Prefer not to say,45-49,Business Analyst,1,1.0
+Prefer not to say,45-49,DBA/Database Engineer,1,1.0
+Prefer not to say,45-49,Data Engineer,1,1.0
+Prefer not to say,45-49,Data Scientist,1,1.0
+Prefer not to say,45-49,Not employed,3,0.3333333333333333
+Prefer not to say,45-49,Other,2,0.5
+Prefer not to say,45-49,Product/Project Manager,2,0.5
+Prefer not to say,45-49,Research Scientist,2,0.5
+Prefer not to say,45-49,Software Engineer,3,0.3333333333333333
+Prefer not to say,50-54,Business Analyst,1,1.0
+Prefer not to say,50-54,Data Analyst,1,1.0
+Prefer not to say,50-54,Data Engineer,1,1.0
+Prefer not to say,50-54,Data Scientist,2,0.5
+Prefer not to say,50-54,Not employed,2,0.5
+Prefer not to say,50-54,Other,2,0.5
+Prefer not to say,50-54,Product/Project Manager,1,1.0
+Prefer not to say,50-54,Research Scientist,1,1.0
+Prefer not to say,50-54,Software Engineer,2,0.5
+Prefer not to say,55-59,Business Analyst,1,1.0
+Prefer not to say,55-59,Data Scientist,4,0.25
+Prefer not to say,55-59,Not employed,1,1.0
+Prefer not to say,55-59,Other,2,0.5
+Prefer not to say,55-59,Product/Project Manager,2,0.5
+Prefer not to say,55-59,Research Scientist,1,1.0
+Prefer not to say,60-69,Data Analyst,1,1.0
+Prefer not to say,60-69,Other,2,0.5
+Prefer not to say,60-69,Research Scientist,1,1.0
+Prefer not to say,70+,Data Scientist,1,1.0
+Prefer not to say,70+,Not employed,1,1.0
+Prefer not to say,70+,Other,6,0.16666666666666666
+Prefer not to say,70+,Research Scientist,1,1.0
+Prefer not to say,70+,Software Engineer,1,1.0
+Prefer not to say,70+,Student,1,1.0
+Prefer to self-describe,18-21,Other,1,1.0
+Prefer to self-describe,18-21,Software Engineer,1,1.0
+Prefer to self-describe,18-21,Student,1,1.0
+Prefer to self-describe,22-24,Data Scientist,1,1.0
+Prefer to self-describe,22-24,Not employed,1,1.0
+Prefer to self-describe,22-24,Software Engineer,2,0.5
+Prefer to self-describe,22-24,Student,2,0.5
+Prefer to self-describe,25-29,Data Scientist,1,1.0
+Prefer to self-describe,25-29,Not employed,2,0.5
+Prefer to self-describe,25-29,Other,1,1.0
+Prefer to self-describe,25-29,Student,2,0.5
+Prefer to self-describe,30-34,Data Engineer,1,1.0
+Prefer to self-describe,30-34,Data Scientist,2,0.5
+Prefer to self-describe,30-34,Not employed,2,0.5
+Prefer to self-describe,30-34,Other,2,0.5
+Prefer to self-describe,30-34,Research Scientist,1,1.0
+Prefer to self-describe,30-34,Software Engineer,3,0.3333333333333333
+Prefer to self-describe,30-34,Student,1,1.0
+Prefer to self-describe,35-39,Other,2,0.5
+Prefer to self-describe,35-39,Research Scientist,1,1.0
+Prefer to self-describe,40-44,Business Analyst,1,1.0
+Prefer to self-describe,40-44,Data Engineer,1,1.0
+Prefer to self-describe,40-44,Student,1,1.0
+Prefer to self-describe,45-49,Other,2,0.5
+Prefer to self-describe,45-49,Software Engineer,1,1.0
+Prefer to self-describe,45-49,Statistician,1,1.0
+Prefer to self-describe,50-54,Research Scientist,1,1.0
+Prefer to self-describe,55-59,Not employed,1,1.0
+Prefer to self-describe,60-69,Data Scientist,1,1.0
+Prefer to self-describe,70+,Data Scientist,1,1.0
+Prefer to self-describe,70+,Not employed,1,1.0
+Prefer to self-describe,70+,Other,3,0.3333333333333333
