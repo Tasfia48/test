@@ -211,7 +211,7 @@ def create_figure_single(d,newDf,district):
 		plt.xticks(fontsize=10)
 		plt.yticks(fontsize=10)
 		plt.legend(loc="upper left")
-		
+
 		# labelLines(plt.gca().get_lines(),align=False, fontsize=10)
 		plt.tight_layout(pad=0.4, w_pad=0.5, h_pad=1.0)
 		plt.ylim(-0.1,1.1)
